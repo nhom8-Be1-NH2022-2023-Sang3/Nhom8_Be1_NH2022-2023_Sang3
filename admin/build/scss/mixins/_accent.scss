@@ -1,0 +1,63 @@
+r EditorFactor to be notified when a *.tsx file is added to a VB project
+[$RootKey$\Projects\{F184B08F-C81C-45f6-A57F-5ABD9991F28F}\FileExtensions\.tsx]
+"EditorFactoryNotify"="{0f2454b1-a556-402d-a7d0-1fde7f99dee0}"
+"DefaultBuildAction"="TypeScriptCompile"
+
+;;Register our EditorFactor to be notified when a *.ts file is added to a C# project
+[$RootKey$\Projects\{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}\FileExtensions\.ts]
+"EditorFactoryNotify"="{0f2454b1-a556-402d-a7d0-1fde7f99dee0}"
+"DefaultBuildAction"="TypeScriptCompile"
+
+;;Register our EditorFactor to be notified when a *.tsx file is added to a C# project
+[$RootKey$\Projects\{FAE04EC0-301F-11d3-BF4B-00C04F79EFBC}\FileExtensions\.tsx]
+"EditorFactoryNotify"="{0f2454b1-a556-402d-a7d0-1fde7f99dee0}"
+"DefaultBuildAction"="TypeScriptCompile"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Define Tools|Options pages
+;;
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions]
+
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions\Formatting]
+@="#1000"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions\Formatting\General]
+@="#1002"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+"Page"="{08f3fd83-881a-4990-89c9-57ba96eafded}"
+"Keywords"="#1014"
+
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions\Formatting\New Lines]
+@="#1003"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+"Page"="{990eb19d-a345-4a3b-a275-a63bd6032b55}"
+"Keywords"="#1011"
+
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions\Formatting\Spacing]
+@="#1004"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+"Page"="{4395bf79-9b95-4a50-9c3f-acffad314368}"
+"Keywords"="#1015"
+
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions\Project]
+@="#1016"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+
+[$RootKey$\Languages\Language Services\TypeScript\EditorToolsOptions\Project\General]
+@="#1017"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+"Page"="{f42fbcf3-88d4-4763-9a59-a77a8d09632c}"
+"Keywords"="#1018"
+
+[$RootKey$\AutomationProperties\TextEditor\TypeScript Specific]
+"Description"="#1007"
+"Name"="TypeScript Specific"
+"Package"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+"ProfileSave"=dword:00000001
+"ResourcePackage"="{2ffe45c4-5c73-493c-b187-f2e955ff875e}"
+"VSSettingsMigration"=dword:00000001
+@="#1008"
+
+[$RootKey$\AutomationProperties\TextEdit

@@ -1,0 +1,24 @@
+duleName></ModuleName>
+              <TypeName></TypeName>
+            </ProgrammableDataQuery>
+            <AutomaticDataQuery level="None" />
+          </Binding>
+        </Bindings>
+        <CategoryId>system.data</CategoryId>
+        <SettingsName _locID="settingsName.OdbcCommand.ExecuteScalar">ExecuteScalar (ODBCCommand)</SettingsName>
+        <SettingsDescription _locID="settingsDescription.OdbcCommand.ExecuteScalar">Command text was executed, returning the first column of the first row in the result set.</SettingsDescription>
+      </DiagnosticEventSpecification>
+      <DiagnosticEventSpecification enabled="true">
+        <Bindings>
+          <Binding onReturn="false">
+            <ModuleSpecificationId>system.data</ModuleSpecificationId>
+            <TypeName>System.Data.OleDb.OleDbCommand</TypeName>
+            <MethodName>ExecuteReader</MethodName>
+            <MethodId>System.Data.OleDb.OleDbCommand.ExecuteReader(System.Data.CommandBehavior):System.Data.OleDb.OleDbDataReader</MethodId>
+            <ShortDescription _locID="shortDescription.OleDbCommand.ExecuteReader">Execute Reader "{0}"</ShortDescription>
+            <LongDescription _locID="longDescription.OleDbCommand.ExecuteReader">The command text "{0}" was executed on connection "{1}", building an OleDbDataReader using one of the CommandBehavior values.</LongDescription>
+            <DataQueries>
+              <DataQuery index="0" maxSize="4096" type="String" _locID="dataquery.OleDbCommand.ExecuteReader.CommandText" _locAttrData="name" name="Command Text" query="_commandText" />
+              <DataQuery index="0" maxSize="256" type="String" _locID="dataquery.OleDbCommand.ExecuteReader.ConnectionString" _locAttrData="name" name="Connection String" query="_connection._userConnectionOptions._usersConnectionString" />
+            </DataQueries>
+            <Program

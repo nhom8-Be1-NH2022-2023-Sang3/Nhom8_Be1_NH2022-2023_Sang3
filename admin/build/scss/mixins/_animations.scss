@@ -1,0 +1,50 @@
+ts\{0188900E-B2F5-48B2-8CD3-D907FFF86357}\AddItemTemplates\TemplateDirs\{7e89d1bd-0041-4382-9816-0e78fc502bed}\/1]
+;;@="JavaScript"
+;;"SortPriority"=dword:000001f4
+;;"TemplatesDir"="\\.\\NullPath"
+;;
+;;[$RootKey$\Projects\{0188900E-B2F5-48B2-8CD3-D907FFF86357}\FileExtensions]
+;;
+;;[$RootKey$\Projects\{0188900E-B2F5-48B2-8CD3-D907FFF86357}\FileExtensions\.appxmanifest]
+;;"EditorFactoryNotify"="{32cc8dfa-2d70-49b2-94cd-22d57349b778}"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; TypeScript ProjectPropertyPage
+;;
+[$RootKey$\CLSID\{d4683cae-88c4-4b85-863d-ac8014f3ba36}]
+@="Microsoft.VisualStudio.LanguageServices.TypeScript.VsPackage.TypeScriptProjectPropertyPageComClass"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.VisualStudio.LanguageServices.TypeScript.VsPackage.TypeScriptProjectPropertyPageComClass"
+"CodeBase"="$PackageFolder$\Microsoft.VisualStudio.LanguageServices.TypeScript.dll"
+"ThreadingModel"="Both"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Debugger expression evaluator
+;;
+
+[$RootKey$\AD7Metrics\ExpressionEvaluator\{87BDF188-E6E8-4FCF-A82A-9B8506E01847}\{994B45C4-E6E9-11D2-903F-00C04FA302A1}]
+"Engine"="{F200A7E7-DEA5-11D0-B854-00A0244A1DE2}"
+"Language"="TypeScript"
+"Name"="Microsoft TypeScript"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Peek support
+;;
+
+[$RootKey$\Peek\SupportedContentTypes]
+".ts"=""
+".tsx"=""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Commandline Diff support
+;;
+
+[$RootKey$\Diff\SupportedContentTypes]
+".ts"=""
+".tsx"=""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
